@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "productName": "Ines",
+      "categProduct": "electronic",
+      "dateProd": null,
+      "pricePro": 10,
+      "id": 4
+    },
+    {
+      "productName": "Mon produit",
+      "categProduct": "vegetable",
+      "dateProd": "2022-08-10T23:00:00.000Z",
+      "freshness": "New Brand",
+      "pricePro": 1552000,
+      "id": 5
+    },
+    {
+      "productName": "vgrf",
+      "categProduct": "vegetable",
+      "dateProd": "2022-08-03T23:00:00.000Z",
+      "freshness": "New Brand",
+      "pricePro": 0,
+      "comments": "vvghgvgh",
+      "id": 6
+    },
+    {
+      "productName": "gtbbgbg",
+      "categProduct": "vegetable",
+      "dateProd": "2022-08-04T23:00:00.000Z",
+      "freshness": "New Brand",
+      "pricePro": 560940679,
+      "comments": "m",
+      "id": 9
+    },
+    {
+      "freshness": "Second Hand",
+      "productName": "ytjytj",
+      "categProduct": "vegetable",
+      "dateProd": "2022-08-06T23:00:00.000Z",
+      "pricePro": 10,
+      "comments": "$",
+      "id": 10
+    },
+    {
+      "productName": "hyhy",
+      "categProduct": "vegetable",
+      "dateProd": "2022-08-04T23:00:00.000Z",
+      "freshness": "New Brand",
+      "pricePro": 560940679,
+      "comments": "hyhyhyhy",
+      "id": 11
+    },
+    {
+      "productName": "uyjuju",
+      "categProduct": "vegetable",
+      "dateProd": "2022-09-05T23:00:00.000Z",
+      "pricePro": 120,
+      "comments": "jjjj",
+      "id": 12
+    },
+    {
+      "freshness": "New Brand",
+      "productName": "gfgfg",
+      "categProduct": "vegetable",
+      "dateProd": "2022-09-13T23:00:00.000Z",
+      "pricePro": 123,
+      "comments": "gfgf",
+      "id": 13
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullName": "ighhihi",
+      "phoneNumber": "bgbgbg",
+      "email": "bgbbg@gggg.com",
+      "password": "ooiiauayyahahhhehe",
+      "id": 1
+    },
+    {
+      "fullName": "uukuykuy",
+      "phoneNumber": "kuykuy",
+      "email": "ukykuy",
+      "password": "kuykuykuy",
+      "id": 2
+    },
+    {
+      "fullName": "rrr",
+      "phoneNumber": "0233222200",
+      "email": "createpub25@gmail.com",
+      "password": "rrrrr",
+      "id": 3
+    },
+    {
+      "fullName": "ines",
+      "phoneNumber": "0541144558",
+      "email": "ines@ines.com",
+      "password": "914519",
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

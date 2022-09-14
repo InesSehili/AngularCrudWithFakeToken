@@ -1,0 +1,23 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+  <mat-card class="box">
+    <mat-card-header>
+      <mat-card-title>Log in</mat-card-title>
+      <mat-error *ngIf="errorLogin">{{loginError()}}</mat-error>
+    </mat-card-header>
+    <form class="example-form" [formGroup]="loginForm" (ngSubmit)="login()">
+      <mat-card-content>
+        <mat-form-field class="example-full-width">
+          <input matInput type="email" placeholder="Email" formControlName="email">
+          <mat-error>{{ getFormCtrlErrorText(loginForm.controls['email'])}}</mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <input matInput type="password" placeholder="Password" formControlName="password">
+          <mat-error>{{ getFormCtrlErrorText(loginForm.controls['password'])}}</mat-error>
+        </mat-form-field>
+      </mat-card-content>
+      <button mat-stroked-button color="accent" class="btn-block" [disabled]="loginForm.invalid">Log in</button>
+    </form>
+    <a mat-primary routerLink="/signup">If you are a new please SignUp !</a>
+  </mat-card>
+</div>
+
